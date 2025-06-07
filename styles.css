@@ -475,13 +475,6 @@ footer{
     background: var(--dk-gray) right no-repeat url("images/puppy-photo.jpg");
 }
 
-/* For the third div, let's include the a background color, allow the image to tile, but center the tiling in the container */
-/* 
-    TO DO: add styles to the div with an ID of bg-img-3 in this section that will:
-        - add the lt-blue color to the background
-        - center the image pattern in the container
-        - add the puppy-photo as a repeating background to the container
-*/
 #bg-img-3{
     background: var(--lt-blue) center url("images/puppy-photo.jpg")
 }
@@ -510,7 +503,7 @@ footer{
         - add the wood background texture from the images folder
 */
 #pattern1{
-    
+    background: var(--light-gray) 110% url(images/wood.png);
 }
 
 /* For the second div, the pattern is from from Hero Pattern. These actually give you SVG code to paste into your CSS */
@@ -548,11 +541,7 @@ footer{
 /* Floating content with CSS */
 
 /* Let's tell our images to float to the left. Remember, they'll sort of pile up next to each other in the container, but only if they're narrow enough to fit! */
-/* 
-    TO DO: add styles to the image with the ID of corgi in this section that will:
-        - float this image to the left
-        - add 1 rem of margin to the right of the image
-*/
+
 #corgi{
     margin-right: 1rem;
     float: left;
@@ -567,7 +556,7 @@ footer{
         - float the image to the right
 */
 #dog-house{
-    
+    float: right;
 }
 
 /* When you use floats, you have to be sure to clear them so that the rest of your page after the floats displays normally. Let's use the display section to clear the floats (because it is the next tag outside of our container in the HTML) */
@@ -576,7 +565,7 @@ footer{
         - clear any floats
 */
 #section9{
-    
+    clear: both;
 }
 
 /* ------------- SECTION 9 STYLES ---------------- */
